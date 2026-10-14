@@ -1,13 +1,13 @@
-import cafe from "@/assets/gasto-cafe.jpg";
-import mercado from "@/assets/gasto-mercado.jpg";
-import livros from "@/assets/gasto-livros.jpg";
+import cafe from "../../assets/gasto-cafe.jpg";
+import mercado from "../../assets/gasto-mercado.jpg";
+import livros from "../../assets/gasto-livros.jpg";
 
 export type Despesa = {
   id: string;
   nome: string;
   valor: number;
   imagem: string | null;
-  data: string; // ISO
+  data: string; 
 };
 
 export const RENDA_INICIAL = 2140;
